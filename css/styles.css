@@ -430,11 +430,37 @@ font-weight: 700;
     margin-top: 130px;
 }
 .social-media {
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 text-align: left;
 justify-content: left;
-padding-left: 540px;
-padding-top: 100px;
 
+}
+.footer-socials {
+display: flex;
+}
+.footer-icons-list {
+display: flex;
+gap: 24px;
+justify-content: center;
+margin-top: 8px
+}
+.footer-link {
+display: flex;
+background-color: rgba(255, 255, 255, 0.1);
+border-radius: 50%;
+align-items: center;
+justify-content: center;
+
+}
+.footer-icon {
+fill: var(--color-white);
+}
+.media {
+margin-left: 540px;
+    margin-bottom: 130px;
+    margin-top: 140px;
+    margin-right: 860px;
 }
