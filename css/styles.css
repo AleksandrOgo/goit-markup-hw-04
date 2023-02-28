@@ -343,6 +343,8 @@ width: calc((100%-24px*3)/4);
     gap: 24px;
     width: 264px;
     height: 112px;
+    text-align: center;
+    padding-top: 24px;
 }
 .icons-main {
 display: flex;
@@ -436,16 +438,21 @@ font-size: 16px;
 line-height: 1.5;
 text-align: left;
 justify-content: left;
+margin-left: 128px;
 
+}
+.footer-social-list {
+margin-top: 8px;
+margin-left: 128px;
+display: flex;
+gap: 16px;
 }
 .footer-socials {
 display: flex;
 }
 .footer-icons-list {
-display: flex;
-gap: 24px;
-justify-content: center;
-margin-top: 8px
+width: 40px;
+height: 40px;
 }
 .footer-link {
 display: flex;
@@ -453,14 +460,14 @@ background-color: rgba(255, 255, 255, 0.1);
 border-radius: 50%;
 align-items: center;
 justify-content: center;
-
+width: 100%;
+height: 100%;
 }
 .footer-icon {
 fill: var(--color-white);
+width: 24px;
+height: 24px;
 }
-.media {
-margin-left: 540px;
-    margin-bottom: 130px;
-    margin-top: 140px;
-    margin-right: 860px;
+.footer-link:hover {
+    background-color: #31D0AA;
 }
