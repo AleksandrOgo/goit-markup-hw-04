@@ -431,27 +431,22 @@ background-color: var(--color-blue-light);
     justify-content: center;
     border: 1px solid #8E8F99;
     border-radius: 4px;
-
+    color: #AFB1B8;
 }
 .customers-link:hover {
 border: 1px solid #404BBF;
 border-radius: 4px;
-fill: var(--color-blue-light);
+color: var(--color-blue-light);
 }
 .customers-link:focus {
 border: 1px solid #404BBF;
-    border-radius: 4px;
-    fill: var(--color-blue-light);
-}
-.customers-icon {
-fill: #8E8F99;
-}
-.customers-icon:hover {
-fill: var(--color-blue-light);
-}
-.customers-icon:focus {
+border-radius: 4px;
 color: var(--color-blue-light);
 }
+.customers-icon {
+fill: currentColor;
+}
+
 .customers {
 padding-bottom: 120px;
 }
