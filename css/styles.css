@@ -499,8 +499,8 @@ height: 24px;
 }
 .footer-link:hover {
 background-color: #31D0AA;
-box-sizing: border-box;
 }
 .footer-link:focus {
 background-color: #31D0AA;
+outline: none;
 }
